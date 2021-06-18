@@ -59,7 +59,7 @@
 |2|msg|String|返回信息|Y||
 |3|data|Object|返回数据|Y||
 |3.1|currencies|List|货币列表|Y||
-|3.1.1|code|String|货币代码|Y|USD|
+|3.1.1|currencyCode|String|货币代码|Y|USD|
 |3.1.2|country|String|国家|Y||
 |3.1.3|currency|String|币种全称|N||
 |3.1.4|number|String|币种国际编号|N||
@@ -89,7 +89,7 @@
 |3|data|Object|返回数据|Y||
 |3.1|autoConversion|String|是否自动转换|Y|true/false|
 |3.2|selectedCurrencies|List|已选择的货币列表|Y||
-|3.2.1|code|String|货币代码|Y|USD|
+|3.2.1|currencyCode|String|货币代码|Y|USD|
 |3.3|priceConfiguration|Object|价格设置|Y||
 |3.3.1|decimalRounding|String|小数四舍五入设置|Y|参考DecimalRounding数据字典|
 |3.3.2|currencyFormat|String|币种样式设置|Y|参考CurrencyFormat数据字典|
@@ -127,7 +127,7 @@
 |---|---|---|---|---|---|
 |3.1|autoConversion|String|是否自动转换|Y|true/false|
 |3.2|selectedCurrencies|List|已选择的货币列表|Y||
-|3.2.1|code|String|货币代码|Y|USD|
+|3.2.1|currencyCode|String|货币代码|Y|USD|
 |3.3|priceConfiguration|Object|价格设置|Y||
 |3.3.1|decimalRounding|String|小数四舍五入设置|Y|参考DecimalRounding数据字典|
 |3.3.2|currencyFormat|String|币种样式设置|Y|参考CurrencyFormat数据字典|
@@ -246,7 +246,7 @@
 |3|data|Object|返回数据|Y||
 |3.1|autoConversion|String|是否自动转换|Y|true/false|
 |3.2|selectedCurrencies|List|已选择的货币列表|Y||
-|3.2.1|code|String|货币代码|Y|USD|
+|3.2.1|currencyCode|String|货币代码|Y|USD|
 |3.3|priceConfiguration|Object|价格设置|Y||
 |3.3.1|decimalRounding|String|小数四舍五入设置|Y|参考DecimalRounding数据字典|
 |3.3.2|currencyFormat|String|币种样式设置|Y|参考CurrencyFormat数据字典|
