@@ -6,10 +6,9 @@
 |[queryAllCurrencies](#2)|shopify/app/work/currency/queryAllCurrencies |1.0|liao panpan||
 |[queryShopConfiguration](#3)|shopify/app/work/currency/queryShopConfiguration |1.0|liao panpan||
 |[saveShopConfiguration](#4)|shopify/app/work/currency/saveShopConfiguration |1.0|liao panpan||
-|[exchangeRate](#5)|shopify/app/work/currency/exchangeRate |1.0|liao panpan||
+|[exchangeRate](#5)|shopify/app/portal/currency/exchangeRate |1.0|liao panpan||
 |[saveComplaint](#6)|shopify/app/work/currency/saveComplaint |1.0|liao panpan||
-
-
+|[queryShopConfiguration](#3)|shopify/app/portal/currency/queryShopConfiguration |1.0|liao panpan||
 
 
 <a name="1">queryShopInfo</a>
@@ -71,6 +70,7 @@
 |*Attr*|*Desc*|
 |---|---|
 |uri|shopify/app/work/currency/queryShopConfiguration|
+|uri|shopify/app/portal/currency/queryShopConfiguration|
 |request method|POST|
 |version|1|
 |remarks|无|
@@ -111,6 +111,15 @@
 |3.6.3| desktopPadding |String|货币选择器在电脑上的padding|Y|按css规则|
 |3.6.4| mobilePadding |String|货币选择器在手机上的padding|Y|按css规则|
 |3.6.5| showStyle |String|货币选择器显示样式|Y|见ShowStyle数据字典|
+|3.7| ipGeolocation |Object|用户定位信息|Y|调用shopify/app/portal/currency/queryShopConfiguration并且autoConversion=true时返回|
+|3.7.1| country |String|国家|Y||
+|3.7.2| countryCode |String|国家编号|Y||
+|3.7.3| countryFlag |String|国旗|Y||
+|3.7.4| currency |String|币种|Y||
+|3.7.5| currencyCode |String|币种编号|Y||
+|3.7.6| currencySymbol |String|币种符号|Y||
+|3.7.6| currencyRates |String|美元汇率|Y||
+
 
 <a name="3"> saveShopConfiguration </a>
 
