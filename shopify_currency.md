@@ -60,8 +60,11 @@
 |2|msg|String|返回信息|Y||
 |3|data|Object|返回数据|Y||
 |3.1|currencies|List|货币列表|Y||
-|3.1.1|currencyCode|String|货币代码|Y|USD|
-|3.1.2|countryCode|String|国家代码|Y|US|
+|3.1.1|code|String|货币代码|Y|USD|
+|3.1.2|country|String|国家|Y||
+|3.1.3|currency|String|币种全称|N||
+|3.1.4|number|String|币种国际编号|N||
+
 
 <a name="3"> queryShopConfiguration </a>
 
