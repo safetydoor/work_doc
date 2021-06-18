@@ -7,7 +7,7 @@
 |[queryShopConfiguration](#3)|shopify/app/work/currency/queryShopConfiguration |1.0|liao panpan||
 |[saveShopConfiguration](#4)|shopify/app/work/currency/saveShopConfiguration |1.0|liao panpan||
 |[exchangeRate](#5)|shopify/app/work/currency/exchangeRate |1.0|liao panpan||
-|[exchangeRate](#6)|shopify/app/work/currency/saveComplaint |1.0|liao panpan||
+|[saveComplaint](#6)|shopify/app/work/currency/saveComplaint |1.0|liao panpan||
 
 
 
