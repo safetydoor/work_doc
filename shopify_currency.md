@@ -9,7 +9,7 @@
 |[exchangeRate](#5)|shopify/app/portal/currency/exchangeRate |1.0|liao panpan||
 |[saveComplaint](#6)|shopify/app/work/currency/saveComplaint |1.0|liao panpan||
 |[queryShopConfiguration](#7)|shopify/app/portal/currency/queryShopConfiguration |1.0|liao panpan||
-|[logout](#8)|shopify/app/portal/currency/logout |1.0|liao panpan||
+|[logout](#8)|shopify/app/work/currency/logout |1.0|liao panpan||
 
 
 <a name="1">queryShopInfo</a>
