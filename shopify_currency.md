@@ -9,6 +9,7 @@
 |[exchangeRate](#5)|shopify/app/portal/currency/exchangeRate |1.0|liao panpan||
 |[saveComplaint](#6)|shopify/app/work/currency/saveComplaint |1.0|liao panpan||
 |[queryShopConfiguration](#7)|shopify/app/portal/currency/queryShopConfiguration |1.0|liao panpan||
+|[logout](#8)|shopify/app/portal/currency/logout |1.0|liao panpan||
 
 
 <a name="1">queryShopInfo</a>
@@ -275,6 +276,30 @@
 |3.7.5| currencyCode |String|币种编号|Y||
 |3.7.6| currencySymbol |String|币种符号|Y||
 |3.7.6| currencyRates |String|美元汇率|Y||
+
+<a name="8"> logout </a>
+
+|*Attr*|*Desc*|
+|---|---|
+|uri|shopify/app/work/currency/logout |
+|request method|POST|
+|version|1|
+|remarks|无|
+
+**Params**
+
+| No | Field Name   | Field Type | Field Definition   | Mandatory | Remarks |
+|---|---|---|---|---|---|
+|1||||Y||
+
+
+
+**Response**
+
+| No | Field Name   | Field Type | Field Definition   | Mandatory | Remarks |
+|---|---|---|---|---|---|
+|1|code|String|返回码|Y|000000表示成功|
+|2|msg|String|返回信息|Y||
 
 
 
