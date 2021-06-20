@@ -61,9 +61,10 @@
 |3|data|Object|返回数据|Y||
 |3.1|currencies|List|货币列表|Y||
 |3.1.1|currencyCode|String|货币代码|Y|USD|
-|3.1.2|country|String|国家|Y||
-|3.1.3|currency|String|币种全称|N||
-|3.1.4|number|String|币种国际编号|N||
+|3.1.2|country|String|国家|N|暂无|
+|3.1.3|currency|String|币种全称|Y||
+|3.1.4|number|String|币种国际编号|N|部分币种不返回|
+|3.1.5|currencySymbol|String|货币符号|N|部分币种不返回|
 
 
 <a name="3"> queryShopConfiguration </a>
@@ -209,7 +210,7 @@
 |---|---|---|---|---|---|
 |1|score|String|分数1-5|Y||
 |2| content |String|评论内容|Y||
-|3|email|String|联系邮箱|Y||
+|3|email|String|联系邮箱|N|传则用，不传则取用户邮箱|
 
 
 
