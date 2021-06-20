@@ -193,6 +193,7 @@
 |3.1.2|targetAmount|String|汇率换算后的金额|Y||
 |3.2|sourceCurrency|String|源币种|Y||
 |3.3|targetCurrency|String|目标币种|Y||
+|3.4|targetCurrencySymbol|String|货币符号|N|部分币种不返回|
 
 
 <a name="6"> saveComplaint </a>
