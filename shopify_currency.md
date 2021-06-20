@@ -226,7 +226,7 @@
 
 
 
-<a name="3"> queryShopConfiguration </a>
+<a name="7"> queryShopConfiguration </a>
 
 |*Attr*|*Desc*|
 |---|---|
