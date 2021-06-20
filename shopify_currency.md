@@ -112,6 +112,7 @@
 |3.6.3| desktopPadding |String|货币选择器在电脑上的padding|Y|按css规则|
 |3.6.4| mobilePadding |String|货币选择器在手机上的padding|Y|按css规则|
 |3.6.5| showStyle |String|货币选择器显示样式|Y|见ShowStyle数据字典|
+|3.7|showAllCurrencies|String|是否显示所有货币|Y|true/false|
 
 
 <a name="4"> saveShopConfiguration </a>
@@ -150,6 +151,7 @@
 |3.6.3| desktopPadding |String|货币选择器在电脑上的padding|Y|按css规则|
 |3.6.4| mobilePadding |String|货币选择器在手机上的padding|Y|按css规则|
 |3.6.5| showStyle |String|货币选择器显示样式|Y|见ShowStyle数据字典|
+|3.7|showAllCurrencies|String|是否显示所有货币|Y|true/false|
 
 **Response**
 
@@ -278,6 +280,7 @@
 |3.7.5| currencyCode |String|币种编号|Y||
 |3.7.6| currencySymbol |String|币种符号|Y||
 |3.7.6| currencyRates |String|美元汇率|Y||
+|3.8|showAllCurrencies|String|是否显示所有货币|Y|true/false|
 
 <a name="8"> logout </a>
 
