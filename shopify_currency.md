@@ -281,6 +281,8 @@
 |3.7.6| currencySymbol |String|币种符号|Y||
 |3.7.6| currencyRates |String|美元汇率|Y||
 |3.8|showAllCurrencies|String|是否显示所有货币|Y|true/false|
+|3.9|shopCurrencyCode|String|店铺默认货币|Y|USD|
+|3.10|shopCurrencySymbol|String|店铺默认货币符号|Y|$|
 
 <a name="8"> logout </a>
 
