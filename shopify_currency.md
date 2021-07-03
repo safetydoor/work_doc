@@ -92,6 +92,7 @@
 |3.1|autoConversion|String|是否自动转换|Y|true/false|
 |3.2|selectedCurrencies|List|已选择的货币列表|Y||
 |3.2.1|currencyCode|String|货币代码|Y|USD|
+|3.2.2|currencySymbol|String|货币符号|N|部分币种不返回|
 |3.3|priceConfiguration|Object|价格设置|Y||
 |3.3.1|decimalRounding|String|小数四舍五入设置|Y|参考DecimalRounding数据字典|
 |3.3.2|currencyFormat|String|币种样式设置|Y|参考CurrencyFormat数据字典|
@@ -252,6 +253,7 @@
 |3.1|autoConversion|String|是否自动转换|Y|true/false|
 |3.2|selectedCurrencies|List|已选择的货币列表|Y||
 |3.2.1|currencyCode|String|货币代码|Y|USD|
+|3.2.2|currencySymbol|String|货币符号|N|部分币种不返回|
 |3.3|priceConfiguration|Object|价格设置|Y||
 |3.3.1|decimalRounding|String|小数四舍五入设置|Y|参考DecimalRounding数据字典|
 |3.3.2|currencyFormat|String|币种样式设置|Y|参考CurrencyFormat数据字典|
