@@ -99,7 +99,9 @@
 |3.3.3|customRoundingValue|String|自定义rounding|N| decimalRounding =04时有|
 |3.4| cartPageNotification |Object|购物车页面提醒|Y||
 |3.4.1| enabled |String|开关|Y|true/false|
-|3.4.2| content |String|提醒内容|Y||
+|3.4.2| content |String|提醒内容|N||
+|3.4.3| textColor |String|文本色值|N|#ff6600|
+|3.4.4| backgroundColor |String|背景色值|N|#ff6600|
 |3.5| currencyBarDesign |Object|币种选择框样式设置|Y||
 |3.5.1| currencyBarLayout |String|币种选择框样式|Y|见CurrencyBarLayout数据字典|
 |3.5.2| background |String|背景色值|Y|#ff6600|
@@ -138,7 +140,9 @@
 |3.3.3|customRoundingValue|String|自定义rounding|N| decimalRounding =04时有|
 |3.4| cartPageNotification |Object|购物车页面提醒|Y||
 |3.4.1| enabled |String|开关|Y|true/false|
-|3.4.2| content |String|提醒内容|Y||
+|3.4.2| content |String|提醒内容|N||
+|3.4.3| textColor |String|文本色值|N|#ff6600|
+|3.4.4| backgroundColor |String|背景色值|N|#ff6600|
 |3.5| currencyBarDesign |Object|币种选择框样式设置|Y||
 |3.5.1| currencyBarLayout |String|币种选择框样式|Y|见CurrencyBarLayout数据字典|
 |3.5.2| background |String|背景色值|Y|#ff6600|
@@ -260,7 +264,9 @@
 |3.3.3|customRoundingValue|String|自定义rounding|N| decimalRounding =04时有|
 |3.4| cartPageNotification |Object|购物车页面提醒|Y||
 |3.4.1| enabled |String|开关|Y|true/false|
-|3.4.2| content |String|提醒内容|Y||
+|3.4.2| content |String|提醒内容|N||
+|3.4.3| textColor |String|文本色值|N|#ff6600|
+|3.4.4| backgroundColor |String|背景色值|N|#ff6600|
 |3.5| currencyBarDesign |Object|币种选择框样式设置|Y||
 |3.5.1| currencyBarLayout |String|币种选择框样式|Y|见CurrencyBarLayout数据字典|
 |3.5.2| background |String|背景色值|Y|#ff6600|
