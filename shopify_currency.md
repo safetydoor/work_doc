@@ -6,10 +6,13 @@
 |[queryAllCurrencies](#2)|shopify/app/work/currency/queryAllCurrencies |1.0|liao panpan||
 |[queryShopConfiguration](#3)|shopify/app/work/currency/queryShopConfiguration |1.0|liao panpan||
 |[saveShopConfiguration](#4)|shopify/app/work/currency/saveShopConfiguration |1.0|liao panpan||
+|[disableShopConfiguration](#9)|shopify/app/work/currency/disableShopConfiguration |1.0|liao panpan||
+|[enableShopConfiguration](#10)|shopify/app/work/currency/enableShopConfiguration |1.0|liao panpan||
 |[exchangeRate](#5)|shopify/app/portal/currency/exchangeRate |1.0|liao panpan||
 |[saveComplaint](#6)|shopify/app/work/currency/saveComplaint |1.0|liao panpan||
 |[queryShopConfiguration](#7)|shopify/app/portal/currency/queryShopConfiguration |1.0|liao panpan||
 |[logout](#8)|shopify/app/work/currency/logout |1.0|liao panpan||
+
 
 
 <a name="1">queryShopInfo</a>
@@ -89,6 +92,7 @@
 |1|code|String|返回码|Y|000000表示成功|
 |2|msg|String|返回信息|Y||
 |3|data|Object|返回数据|Y||
+|3.0|enable|String|是否开启|Y|true/false|
 |3.1|autoConversion|String|是否自动转换|Y|true/false|
 |3.2|selectedCurrencies|List|已选择的货币列表|Y||
 |3.2.1|currencyCode|String|货币代码|Y|USD|
@@ -131,6 +135,7 @@
 
 | No | Field Name   | Field Type | Field Definition   | Mandatory | Remarks |
 |---|---|---|---|---|---|
+|3.0|enable|String|是否开启|Y|true/false|
 |3.1|autoConversion|String|是否自动转换|Y|true/false|
 |3.2|selectedCurrencies|List|已选择的货币列表|Y||
 |3.2.1|currencyCode|String|货币代码|Y|USD|
@@ -166,6 +171,50 @@
 |2|msg|String|返回信息|Y||
 |3|data|Object|返回数据|Y||
 
+<a name="9"> disableShopConfiguration </a>
+
+|*Attr*|*Desc*|
+|---|---|
+|uri|shopify/app/work/currency/disableShopConfiguration |
+|request method|POST|
+|version|1|
+|remarks|无|
+
+**Params**
+
+| No | Field Name   | Field Type | Field Definition   | Mandatory | Remarks |
+|---|---|---|---|---|---|
+
+**Response**
+
+| No | Field Name   | Field Type | Field Definition   | Mandatory | Remarks |
+|---|---|---|---|---|---|
+|1|code|String|返回码|Y|000000表示成功|
+|2|msg|String|返回信息|Y||
+|3|data|Object|返回数据|Y||
+
+
+<a name="10"> enableShopConfiguration </a>
+
+|*Attr*|*Desc*|
+|---|---|
+|uri|shopify/app/work/currency/enableShopConfiguration |
+|request method|POST|
+|version|1|
+|remarks|无|
+
+**Params**
+
+| No | Field Name   | Field Type | Field Definition   | Mandatory | Remarks |
+|---|---|---|---|---|---|
+
+**Response**
+
+| No | Field Name   | Field Type | Field Definition   | Mandatory | Remarks |
+|---|---|---|---|---|---|
+|1|code|String|返回码|Y|000000表示成功|
+|2|msg|String|返回信息|Y||
+|3|data|Object|返回数据|Y||
 
 <a name="5"> exchangeRate </a>
 
@@ -253,7 +302,7 @@
 |---|---|---|---|---|---|
 |1|code|String|返回码|Y|000000表示成功|
 |2|msg|String|返回信息|Y||
-|3|data|Object|返回数据|Y||
+|3|data|Object|返回数据|Y|enabled=false时不返回|
 |3.1|autoConversion|String|是否自动转换|Y|true/false|
 |3.2|selectedCurrencies|List|已选择的货币列表|Y||
 |3.2.1|currencyCode|String|货币代码|Y|USD|
