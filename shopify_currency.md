@@ -303,6 +303,7 @@
 |1|code|String|返回码|Y|000000表示成功|
 |2|msg|String|返回信息|Y||
 |3|data|Object|返回数据|Y|enabled=false时不返回|
+|3.0|enable|String|是否开启|Y|true/false|
 |3.1|autoConversion|String|是否自动转换|Y|true/false|
 |3.2|selectedCurrencies|List|已选择的货币列表|Y||
 |3.2.1|currencyCode|String|货币代码|Y|USD|
