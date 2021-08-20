@@ -295,7 +295,6 @@
 |---|---|---|---|---|---|
 |1|domain|String|店铺域名:lapsdoor.myshopify.com|Y||
 
-
 **Response**
 
 | No | Field Name   | Field Type | Field Definition   | Mandatory | Remarks |
@@ -341,6 +340,13 @@
 |3.8|showAllCurrencies|String|是否显示所有货币|Y|true/false|
 |3.9|shopCurrencyCode|String|店铺默认货币|Y|USD|
 |3.10|shopCurrencySymbol|String|店铺默认货币符号|Y|$|
+|3.11|currencyRateList|Object|汇率列表|Y||
+|3.11.1|baseCurrencyCode|String|基准汇率code|Y|EUR|
+|3.11.2|baseRate|String|基准汇率|Y|1|
+|3.11.3|currencyRates|Array|币种汇率|Y||
+|3.11.3.1|currencyCode|String|币种|Y||
+|3.11.3.2|rate|String|币种相比于baseCurrencyCode的汇率|Y||
+
 
 <a name="8"> logout </a>
 
