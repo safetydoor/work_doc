@@ -101,6 +101,9 @@
 |3.3.1|decimalRounding|String|小数四舍五入设置|Y|参考DecimalRounding数据字典|
 |3.3.2|currencyFormat|String|币种样式设置|Y|参考CurrencyFormat数据字典|
 |3.3.3|customRoundingValue|String|自定义rounding|N| decimalRounding =04时有|
+|3.3.4|customCurrencyRoundingValue|List|根据currency自定义rounding|N||
+|3.3.4.1|currencyCode|String|币种|N||
+|3.3.4.2|rounding|String|rounding的值|N|100，99，0.99等|
 |3.4| cartPageNotification |Object|购物车页面提醒|Y||
 |3.4.1| enabled |String|开关|Y|true/false|
 |3.4.2| content |String|提醒内容|N||
