@@ -120,6 +120,9 @@
 |3.6.4| mobilePadding |String|货币选择器在手机上的padding|Y|按css规则|
 |3.6.5| showStyle |String|货币选择器显示样式|Y|见ShowStyle数据字典|
 |3.7|showAllCurrencies|String|是否显示所有货币|Y|true/false|
+|3.8|hideCurrencyBar|String|是否隐藏currency bar|N|true/false|
+|3.9|showOriginalPrice|String|是否显示原金额|N|true/false|
+
 
 
 <a name="4"> saveShopConfiguration </a>
@@ -162,6 +165,8 @@
 |3.6.4| mobilePadding |String|货币选择器在手机上的padding|Y|按css规则|
 |3.6.5| showStyle |String|货币选择器显示样式|Y|见ShowStyle数据字典|
 |3.7|showAllCurrencies|String|是否显示所有货币|Y|true/false|
+|3.8|hideCurrencyBar|String|是否隐藏currency bar|N|true/false|
+|3.9|showOriginalPrice|String|是否显示原金额|N|true/false|
 
 **Response**
 
@@ -346,7 +351,8 @@
 |3.11.3|currencyRates|Array|币种汇率|Y||
 |3.11.3.1|currencyCode|String|币种|Y||
 |3.11.3.2|rate|String|币种相比于baseCurrencyCode的汇率|Y||
-
+|3.12|hideCurrencyBar|String|是否隐藏currency bar|N|true/false|
+|3.13|showOriginalPrice|String|是否显示原金额|N|true/false|
 
 <a name="8"> logout </a>
 
