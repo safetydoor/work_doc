@@ -2,7 +2,7 @@
 
 |*Api Name*|*Api Url*|*Api Version*|*Developer*|*Remarks*|
 |---|---|---|---|---|
-|[queryShopInfo](#1)|shopify/app/work/reviews/sshop/query|1.0|liao panpan||
+|[queryShopInfo](#1)|shopify/app/work/reviews/shop/query|1.0|liao panpan||
 |[logout](#2)|shopify/app/work/reviews/logout |1.0|liao panpan||
 |[queryEmailCfg](#3)|shopify/app/work/reviews/emailCfg/query |1.0|liao panpan||
 |[saveEmailCfg](#4)|shopify/app/work/reviews/emailCfg/save |1.0|liao panpan||
@@ -47,7 +47,7 @@
 |3|data|Object|返回数据|Y||
 |3.1|<a href="https://shopify.dev/docs/admin-api/rest/reference/store-properties/shop">详见shopify官方文档</a>|String||Y|<a href="https://shopify.dev/docs/admin-api/rest/reference/store-properties/shop">shop</a>|
 
-<a name="2"> logout </a>
+# <a name="2"> logout </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -71,7 +71,7 @@
 |1|code|String|返回码|Y|000000表示成功|
 |2|msg|String|返回信息|Y||
 
-<a name="3"> queryEmailCfg </a>
+# <a name="3"> queryEmailCfg </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -91,7 +91,7 @@
 **Response**
 
 | No | Field Name   | Field Type | Field Definition   | Mandatory | Remarks |
-|---|---|---|---|---|---|
+|---|---|---|---|---|---|# <a
 |1|code|String|返回码|Y|000000表示成功|
 |2|msg|String|返回信息|Y||
 |3|data|Object|返回数据|Y||
@@ -106,7 +106,7 @@
 |3.9|senderName|String|邮箱中的发送人|N||
 |3.10|senderEmail|String|发送邮箱|N||
 
-<a name="4"> saveEmailCfg </a>
+# <a name="4"> saveEmailCfg </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -140,7 +140,7 @@
 
 
 
-<a name="5"> queryEmailTemplate </a>
+# <a name="5"> queryEmailTemplate </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -174,7 +174,7 @@
 
 
 
-<a name="6"> saveEmailTemplate </a>
+# <a name="6"> saveEmailTemplate </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -208,7 +208,7 @@
 
 
 
-<a name="7"> queryBalcklist </a>
+# <a name="7"> queryBalcklist </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -238,7 +238,7 @@
 
 
 
-<a name="8"> saveBalcklist </a>
+# <a name="8"> saveBalcklist </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -269,7 +269,7 @@
 
 
 
-<a name="9"> queryEmailHistory </a>
+# <a name="9"> queryEmailHistory </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -312,7 +312,7 @@
 
 
 
-<a name="10"> queryDiscountCfg </a>
+# <a name="10"> queryDiscountCfg </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -347,7 +347,7 @@
 
 
 
-<a name="11"> saveDiscountCfg </a>
+# <a name="11"> saveDiscountCfg </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -378,7 +378,7 @@
 
 
 
-<a name="13"> queryReviews </a>
+# <a name="13"> queryReviews </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -431,7 +431,7 @@
 
 
 
-<a name="14"> addReviews </a>
+# <a name="14"> addReviews </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -468,7 +468,7 @@
 
 
 
-<a name="15"> approveReviews </a>
+# <a name="15"> approveReviews </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -496,7 +496,7 @@
 
 
 
-<a name="16"> deleteReviews </a>
+# <a name="16"> deleteReviews </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -527,7 +527,7 @@
 
 
 
-<a name="17"> editReviews </a>
+# <a name="17"> editReviews </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -562,7 +562,7 @@
 
 
 
-<a name="18"> pinReviews </a>
+# <a name="18"> pinReviews </a>
 
 |*Attr*|*Desc*|
 |---|---|
