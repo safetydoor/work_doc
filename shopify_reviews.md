@@ -653,6 +653,10 @@
 
 | 字典类型 | 值   | 备注 |
 |---|---|---|
+| WidgetType |01| review |
+| WidgetType |02| popup |
+| WidgetType |03| star ratings |
+|---|---|---|
 | ReviewStatus |01| waiting |
 | ReviewStatus |02| approved |
 | ReviewStatus |03| rejected |
