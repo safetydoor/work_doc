@@ -14,12 +14,15 @@
 |[queryDiscountCfg](#10)|shopify/app/work/reviews/discount/query |1.0|liao panpan||
 |[saveDiscountCfg](#11)|shopify/app/work/reviews/discount/save |1.0|liao panpan||
 |[queryReviews](#12)|shopify/app/work/reviews/query |1.0|liao panpan||
-|[queryReviews](#13)|shopify/app/portal/reviews/query |1.0|liao panpan||
+|[queryReviews](#12)|shopify/app/portal/reviews/query |1.0|liao panpan||
 |[addReviews](#14)|shopify/app/portal/reviews/add |1.0|liao panpan||
 |[approveReviews](#15)|shopify/app/work/reviews/approve |1.0|liao panpan||
 |[deleteReviews](#16)|shopify/app/work/reviews/delete |1.0|liao panpan||
 |[editReviews](#17)|shopify/app/work/reviews/edit |1.0|liao panpan||
 |[pinReviews](#18)|shopify/app/work/reviews/pin |1.0|liao panpan||
+|[queryWidgetCfg](#19)|shopify/app/work/reviews/widgetCfg/query |1.0|liao panpan||
+|[queryWidgetCfg](#19)|shopify/app/portal/reviews/widgetCfg/query |1.0|liao panpan||
+|[saveWidgetCfg](#20)|shopify/app/work/reviews/widgetCfg/save |1.0|liao panpan||
 
 
 
@@ -378,7 +381,7 @@
 
 
 
-# <a name="13"> queryReviews </a>
+# <a name="12"> queryReviews </a>
 
 |*Attr*|*Desc*|
 |---|---|
@@ -586,6 +589,64 @@
 |1|code|String|返回码|Y|000000表示成功|
 |2|msg|String|返回信息|Y||
 |3|data|Object|返回数据|Y||
+
+
+
+
+# <a name="19"> queryWidgetCfg </a>
+
+|*Attr*|*Desc*|
+|---|---|
+|uri|shopify/app/work/reviews/widgetCfg/query，shopify/app/portal/reviews/widgetCfg/query|
+|request method|POST|
+|version|1|
+|remarks|无|
+
+**Params**
+
+| No | Field Name   | Field Type | Field Definition   | Mandatory | Remarks |
+|---|---|---|---|---|---|
+|1|widgetType|String|widget类型|Y|01:review,02:popup,03:star ratings|
+|2|domain|String|店铺域名|N|front store访问时需要传|
+
+
+**Response**
+
+| No | Field Name   | Field Type | Field Definition   | Mandatory | Remarks |
+|---|---|---|---|---|---|
+|1|code|String|返回码|Y|000000表示成功|
+|2|msg|String|返回信息|Y||
+|3|data|Object|返回数据|Y||
+|3.1|widgetType|String|widget类型|Y|01:review,02:popup,03:star ratings|
+|3.2|widgetTemplate|String|widget模板|Y|暂时用1个|
+|3.3|customWidget|String|自定义的样式|Y|用json存储|
+
+# <a name="20"> saveWidgetCfg </a>
+
+|*Attr*|*Desc*|
+|---|---|
+|uri|shopify/app/work/reviews/widgetCfg/query，shopify/app/portal/reviews/widgetCfg/save|
+|request method|POST|
+|version|1|
+|remarks|无|
+
+**Params**
+
+| No | Field Name   | Field Type | Field Definition   | Mandatory | Remarks |
+|---|---|---|---|---|---|
+|1|widgetType|String|widget类型|Y|01:review,02:popup,03:star ratings|
+|2|widgetTemplate|String|widget模板|Y|暂时用1个|
+|3|customWidget|String|自定义的样式|Y|用json存储|
+
+**Response**
+
+| No | Field Name   | Field Type | Field Definition   | Mandatory | Remarks |
+|---|---|---|---|---|---|
+|1|code|String|返回码|Y|000000表示成功|
+|2|msg|String|返回信息|Y||
+|3|data|Object|返回数据|Y||
+
+
 
 
 ## 数据字典
